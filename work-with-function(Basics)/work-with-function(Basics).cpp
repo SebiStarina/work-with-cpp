@@ -1,7 +1,7 @@
 #include <iostream>
+const double PI = 3.141592;
 
 double calculateCylinderVolume(double radius, double height) {
-    const double PI = 3.141592;
     double V = PI * (radius*radius) * height;
     return V;
 }
